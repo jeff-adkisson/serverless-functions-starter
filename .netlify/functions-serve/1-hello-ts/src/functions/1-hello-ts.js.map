@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["functions/1-hello-ts.ts"],
+  "sourceRoot": "C:/Users/jadki/AppData/Local/Temp/tmp-5404-4MNxfL2mvOP7",
+  "sourcesContent": ["import { Handler } from \"@netlify/functions\";\r\n\r\nconst handler: Handler = async (event, context) => {\r\n  return {\r\n    statusCode: 200,\r\n    body: JSON.stringify({ message: \"Hello World\" }),\r\n  };\r\n};\r\n\r\nexport { handler };"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;AAEA,IAAM,UAAmB,OAAO,OAAO,YAAY;AACjD,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU,EAAE,SAAS;AAAA;AAAA;",
+  "names": []
+}
